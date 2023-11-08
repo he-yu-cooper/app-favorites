@@ -1,0 +1,95 @@
+body {
+    background-image: url(./images/bg2.jpg);
+}
+
+image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-left: 230px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    padding: 10px;
+    font-style: italic;
+}
+
+article {
+    .doctor {
+        width: 40%;
+        float: left;
+    }
+
+    display: flex;
+    font-family: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+    font-size: 2.5rem;
+}
+
+.phone {
+    width: 30%;
+    margin-top: 100px;
+    float: right;
+}
+h2{
+ text-align: center;
+    margin-top: 200px;
+}
+.key{
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.downloads {
+    display: grid;
+    justify-content: right;
+    margin-left: 1000px;
+    background-image: url(./images/do.jpg);
+    color: aliceblue;
+    border-radius: 30px;
+    .t {
+        width: 30%;
+        float: right;
+        margin-right: 180px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(4, 4, 4, 0.3);
+    margin-top: 30px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: antiquewhite;
+}

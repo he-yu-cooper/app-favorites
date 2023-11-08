@@ -1,0 +1,99 @@
+   .trailer {
+     margin-left: 450px;
+   }
+
+   body {
+     background-image: url(./images/smart.jpg);
+   }
+
+   .icon {
+     width: 80px;
+     height: 80px;
+     object-fit: cover;
+     margin-left: 230px;
+     margin-top: 50px;
+     cursor: pointer;
+   }
+
+   h1 {
+     font-size: 4rem;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     display: flex;
+     justify-content: center;
+     color: beige;
+   }
+
+   article {
+     text-align: center;
+     color: whitesmoke;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 1rem;
+     margin-left: 400px;
+     margin-right: 400px;
+     margin-top: 100px;
+   }
+.photo{
+  width: 100%;
+  object-fit: cover;
+}
+   .slogn {
+     text-align: center;
+     font-size: 2.6rem;
+     color: whitesmoke;
+     font-style: italic;
+     background-color: rgba(7, 7, 7, 0.7);
+     border-radius: 20px;
+   }
+
+   .music {
+     margin-left: 45px;
+   }
+
+   aside {
+     display: grid;
+     text-align: center;
+     font-size: 1.5rem;
+     color: aliceblue;
+     margin-left: 400px;
+     margin-right: 400px;
+     margin-top: 100px;
+   }
+
+   .container {
+    display: flex;
+  }
+  
+  .box {
+    flex: 1;
+    border: white solid;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: grid;
+  }
+.t{
+width: 15%;
+margin-left: 350px;
+}
+   footer {
+     display: flex;
+     justify-content: center;
+     background-color: rgba(4, 4, 4, 0.7);
+     margin-top: 100px;
+     color: whitesmoke;
+   }
+
+   .logo {
+     width: 50px;
+     height: 50px;
+     object-fit: cover;
+   }
+
+   a:link {
+     color: whitesmoke;
+   }
+
+   a:visited {
+     color: antiquewhite;
+   }
